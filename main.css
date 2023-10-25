@@ -1,0 +1,59 @@
+html {
+    font-size: 22px
+}
+
+body {
+    background-color: #ffc4cc;
+    color: rgb(54, 31, 31);
+}
+
+a {
+    color: rgb(87, 163, 229);
+}
+
+a:visited {
+    color: rgb(87, 85, 85);
+}
+
+a:hover, a:active {
+    color: #796f6f; 
+}
+
+table, tr, th, td, caption {
+    border: 1px solid #eee;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+.neonText {
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(241, 14, 124),
+    0 0 82px rgb(241, 14, 124),
+    0 0 92px rgb(241, 14, 124),
+    0 0 102px rgb(241, 14, 124),
+    0 0 151px rgb(241, 14, 124);
+  }
+.wrap {
+    height:60vh;
+  
+}
+
+.block {
+   width: 70%; 
+}
+
+.photo img {
+    width: 70%;
+    height: 60%;
+    transition: transform 0.5s;
+}
+
+.photo:hover img {
+    transform: scale(1.1);
+}
+
